@@ -5,7 +5,7 @@ from playsound import playsound
 def cria_audio(audio):
 	tts = gTTS(audio, lang='pt-br')
 	tts.save('playback/Pb.mp3')
-	print("Estou aprendendo o que você disse...")
+	print("Analisando Voz")
 	playsound('playback/Pb.mp3')
 
 def ouvir_microfone():
