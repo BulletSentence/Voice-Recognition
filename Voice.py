@@ -19,7 +19,7 @@ def ouvir_microfone():
 
 	try:
 		frase = microfone.recognize_google(audio, language='pt-BR')
-		print("Frase Falada: " + frase)
+		print("Frase: " + frase)
 	except sr.UnkownValueError:
 		print("Não entendi")
 
