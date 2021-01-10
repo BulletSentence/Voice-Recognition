@@ -26,4 +26,5 @@ def ouvir_microfone():
 	return frase
 
 frase = ouvir_microfone()
+
 cria_audio(frase)
